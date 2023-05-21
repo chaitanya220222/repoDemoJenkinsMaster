@@ -4,10 +4,7 @@
         <members>*</members>
         <name>ApexClass</name>
     </types>
-    <types>
-  <members>Account</members>
-  <name>CustomObject</name>
-</types>
+    
     <types>
         <members>Account.account_details__c</members>
         <name>CustomField</name>
