@@ -1,4 +1,4 @@
-public class repoDemoCreateLead {
+public class RepoDemoCreateLead {
     
     public static void createLead(){
         Lead newLead = new Lead();
