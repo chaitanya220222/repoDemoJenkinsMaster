@@ -5,10 +5,7 @@
         <members>Account.account_details__c</members>
         <name>CustomField</name>
     </types>
-    <types>
-          <members>deployViaJenkin__c</members>
-          <name>CustomObject</name>
-    </types>
+    
     <types>
         <members>*</members>
         <name>ApexClass</name>
