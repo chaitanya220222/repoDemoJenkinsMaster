@@ -1,7 +1,7 @@
 public with sharing class CreateAccount {
     public static void singleAccount(){
 
-        account acc = new account(lastName='Hi');
+        account acc = new account(Name='Hi');
         insert acc;
     }
 
