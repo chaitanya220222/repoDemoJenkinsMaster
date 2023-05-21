@@ -4,14 +4,15 @@
         <members>*</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>deployViaJenkin__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>deployViaJenkin__c.account_details__c</members>
+      <types>
+        <members>Account.account_details__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+          <members>deployViaJenkin__c</members>
+          <name>CustomObject</name>
+    </types>
+    
     <!--<types>
         <members>*</members>
         <name>ApexComponent</name>

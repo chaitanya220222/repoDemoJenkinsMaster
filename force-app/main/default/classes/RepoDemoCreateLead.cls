@@ -1,6 +1,6 @@
-public with sharing class RepoDemoCreateLead {
+public class repoDemoCreateLead {
     
-    public static void createSingleLead(){
+    public static void createLead(){
         Lead newLead = new Lead();
         newLead.FirstName = 'John';
         newLead.LastName = 'Doe';
@@ -12,7 +12,11 @@ public with sharing class RepoDemoCreateLead {
         newLead.Status = 'Open';
         
         // Insert the Lead record
-        
-        insert newLead; 
+        try {
+            insert newLead;
+            System.debug('Lead created successfully. Lead Id: ' + newLead.Id);
+        } catch (DmlException e) {
+            System.debug('An error occurred while creating the Lead: ' + e.getMessage());
+        }
     }
 }
